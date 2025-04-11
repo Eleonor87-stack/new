@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты — The Beatles</title>
+    <style>
+        body {
+            background-color: #E6E6FA; /* Светло-лавандовый фон */
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #800000;
+        }
+
+        .nav {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .nav a {
+            color: #800000;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #4B0082; /* Цвет заголовка "Контакты" */
+        }
+
+        .contact-block {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #000000; /* Чёрный цвет для контактной информации */
+        }
+
+        .contact-block a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-block a:hover {
+            text-decoration: underline;
+        }
+
+        .map-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        iframe {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="index.html">Главная</a> |
+        <a href="Info.html">Общая информация</a> | 
+        <a href="History.html">История</a> | 
+        <a href="Disc.html">Дискография</a> | 
+        <a href="Film.html">Фильмография</a> | 
+        <a href="Links.html">Источники</a> |
+        <a href="Shop.html">Заказать альбом</a> |
+        <a href="Contact.html">Контакты</a>
+    </div>
+
+    <h1>Контакты</h1>
+
+    <div class="contact-block">
+        <p>Вы можете написать нам на email:</p>
+        <a href="mailto:beatles@example.com">beatles@example.com</a>
+    </div>
+
+    <div class="contact-block">
+        <p>Или отправить сообщение в Telegram:</p>
+        <a href="https://t.me/beatles_band" target="_blank">@beatles_band</a>
+    </div>
+
+    <div class="contact-block">
+        <p>Наш адрес на Яндекс Картах:</p>
+    </div>
+
+    <div class="map-container">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexampleid1234567890abcdef&source=constructor" 
+                width="600" 
+                height="400" 
+                frameborder="0">
+        </iframe>
+    </div>
+
+</body>
+</html>
